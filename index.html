@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boboto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="main">
+            <h1>Inscription élèves</h1>
+            <hr>
+            <form id="formulaire" action="">
+
+                <section>
+                    <h2>Information personnelle</h2>
+                    <div class="bloc-input">
+                        <label for="Prenom">Prenom :</label>
+                        <input type="text" name="" id="Prenom">
+                    </div>
+                    <div class="bloc-input">
+                        <label for="Nom">Nom :</label>
+                        <input type="text" name="" id="Nom">
+                    </div>
+                    <div class="bloc-input">
+                        <label for="Post-nom">Post-nom :</label>
+                        <input type="text" name="" id="Post-nom">
+                    </div>
+                    <div class="bloc-input">
+                        <label for="Sexe">Sexe</label>
+                        <select name="" id="Sexe">
+                            <option value="F">Femme</option>
+                            <option value="H">Homme</option>
+                        </select>
+                    </div>
+                    <div class="bloc-input">
+                        <label for="Classe">Classe (primaire)</label>
+                        <select name="" id="Classe">
+                            <option value="1ere">1ere</option>
+                            <option value="2eme">2eme</option>
+                            <option value="3eme">3eme</option>
+                            <option value="4eme">4eme</option>
+                            <option value="5eme">5eme</option>
+                            <option value="6eme">6eme</option>
+                        </select>
+                    </div>
+                    <div class="bloc-input">
+                        <label for="Date">Date de naissance</label>
+                        <input type="date" name="" id="Date">
+                    </div>
+                </section>
+                <section>
+                    <h2>Information sécondaire</h2>
+                    <div class="bloc-input">
+                        <label for="Affiliation">Affiliation du tuteur :</label>
+                        <select name="" id="Affiliation"></select>
+                    </div>
+                    <div class="bloc-input">
+                        <label for="">Nom du tuteur:</label>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="bloc-input">
+                        <label for="Numero">Numero de téléphone :</label>
+                        <input type="number" name="Numero" id="">
+                    </div>
+                </section>
+                <button>Enregistrer</button>
+            </form>
+        </div>
+    </main>
+    <table>
+        <thead>
+            <tr>
+                <th>Noms</th>
+                <th>Sexe</th>
+                <th>classe</th>
+                <th>Date de naissance</th>
+                <th>Tuteur</th>
+                <th>Numero de téléphone </th>
+            </tr>
+        </thead>
+        <tbody id="t-body">
+            <tr>
+                <th>Josue Ngoma</th>
+                <th>M</th>
+                <th>6ème</th>
+                <th>29/11/1900</th>
+                <th>Papa Ngoma</th>
+                <th>0898464570</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<script src="index.js"></script>
+</html>

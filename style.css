@@ -1,0 +1,88 @@
+*{
+    margin: 0%; padding: 0%;
+}
+body{
+    background-color: rgb(233, 234, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    row-gap: 50px;
+}
+main{
+    background-color: rgb(233, 234, 247);
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+}
+.main{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .6em;
+}
+
+h1, h2{
+    padding: 20px 0;
+}
+
+h1, hr,form{
+    /* background-color: grey; */
+    width: 75%;
+}
+
+.bloc-input{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+input,label, select, button{
+    font-size: 20px;
+    background-color: transparent;
+}
+input, select{
+    padding: 10px 15px;
+    border-radius: .3em ;
+    border-color: rgb(223, 222, 222);
+    margin: 5px 0 15px 0;
+}
+
+table{
+    background-color: white;
+    width: 95%;
+    padding: 15px 10px;
+}
+
+th{
+    text-align: start;
+}
+tr{
+    display: grid;
+    grid-template-columns: 2.2fr .6fr .7fr 1.1fr 2fr .8fr ;
+    font-size: 20px;
+    padding: 10px 0 10px 5px;
+}
+thead{
+    background-color: rgb(233, 234, 247);
+
+}
+thead tr{
+    border: 3px solid rgb(78, 78, 78);
+
+}
+
+tbody tr{
+    color: rgb(78, 78, 78);
+    border: 1px solid rgb(78, 78, 78);
+}
+
+button{
+    background-color: rgb(9, 161, 9);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: .3em ;
+    margin: 40px 0 50px ;
+}
